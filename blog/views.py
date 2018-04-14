@@ -21,7 +21,7 @@ def globalbusteractive(request):
     return render(request, 'blog/globalbusteractive.html')
 
 def login(request):
-    _message = 'Please sign in'
+    _message = 'Please log in'
     if request.method == 'POST':
         _username = request.POST['username']
         _password = request.POST['password']
